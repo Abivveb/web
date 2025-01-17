@@ -1,0 +1,93 @@
+// fix sizes
+.about {
+    margin: 135px 0 0;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+
+    &__upper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+
+        &__text {
+            text-align: center;
+            font-size: 76px;
+        }
+
+        &__content {
+            width: 100%;
+            height: 775px;
+            padding: 11% 6% 9% 7%;
+            border-radius: 63px;
+            background: rgb(170, 170, 170);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            &__text {
+                font-size: 50px;
+            }
+
+            &__texts {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            &__ads {
+                height: 35px;
+                display: flex;
+                gap: 17px;
+            }
+
+            &__ad_one {
+                width: 228px;
+                border-radius: 13px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: rgb(212, 212, 212);
+                font-size: 16px;
+            }
+
+            &__ad_two {
+                width: 309px;
+                border-radius: 13px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: rgb(212, 212, 212);
+                font-size: 16px;
+            }
+
+            &__bottom {
+
+                &__texts {
+                    display: flex;
+                    justify-content: space-between;
+
+                    h4 {
+                        font-size: 16px;
+                        font-weight: 400;
+                    }
+                    div {
+                        display: flex;
+                        gap: 20px;
+
+                        h2 {
+                            font-size: 36px;
+                            font-weight: 500;
+                        }
+
+                        span {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,115 @@
+.about_ai {
+    margin: 100px 0 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    &__left-info {
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 150px 0 0;
+
+    }
+    &__upper-text {
+        // fix
+        
+        display: flex;
+        flex-direction: column;
+        gap: 53px;
+
+
+        h4 {
+            font-size: 24px;
+            font-weight: 400;
+        }
+        h5 {
+            font-size: 16px;
+            font-weight: 400;
+            opacity: 80%;
+        }
+    }
+
+
+    &__main-text {
+        font-size: 69px;
+        text-align: right;
+        margin: 0 0 84px;
+    }
+
+    &__img {
+        width: 667px;
+        height: 935px;
+        border-radius: 55px;
+        background: #C4C4C4;
+        float: right;
+    }
+
+    &__img-small {
+        width: 347px;
+        height: 392px;
+        background: #C4C4C4;
+        border-radius: 56px;
+    }
+    &__text {
+        display: flex;
+    }
+
+    &__tech {
+        font-size: 36px;
+        font-weight: 500;
+        margin: 0 115px 0 0;
+
+        h4 {
+            font-size: 20px;
+            font-weight: 400;
+        }
+    }
+
+    &__text-tech {
+        font-weight: 500;
+        font-size: 24px;
+    }
+
+    &__btns {
+        display: flex;
+        gap: 20px;
+        margin: 0 212px 0 0;
+    }
+    
+    &__btn_read {
+        background: #471EFF;
+        color: white;
+        width: 220px;
+        height: 52px;
+        border: none;
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        font-weight: 500;
+
+        img {
+            margin: 0 0 0 15px;
+        }
+    }
+    &__btn_learn {
+        background: #C30EFF;
+        color: white;
+        width: 220px;
+        height: 52px;
+        border: none;
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        font-weight: 500;
+
+        img {
+            margin: 0 0 0 15px;
+        }
+    }
+}
